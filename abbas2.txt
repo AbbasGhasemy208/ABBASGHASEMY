@@ -1,0 +1,9 @@
+password1 = input("Please enter the first password: ")
+password2 = input("Please enter the second password: ")
+
+while password1 != password2:
+    print("Passwords are different!")
+    password1 = input("Please re-enter the first password: ")
+    password2 = input("Please re-enter the second password: ")
+
+print("The passwords are the same!")

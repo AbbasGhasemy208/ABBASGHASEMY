@@ -1,0 +1,4 @@
+A = int(input("How many kilometers did you drive?"))
+print ("You" , A , " kilometers driven ")
+B = A * 1000
+print ("You drove" , B , "meter")

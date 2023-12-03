@@ -1,0 +1,71 @@
+print("alifattahi")
+
+for num in range(1, 3001):
+    print(number)
+
+
+
+lists = [ did ]
+
+# List of countries
+countries = ["Iran", "America", "France", "Japan", "Australia", "Canada", "England", "Germany", "Russia", "Brazil"]
+lists.append(countries)
+
+# List of Iranian names
+iranian_names = ["Mahdi", "Sara", "Ali", "Nilofar", "Reza", "Zahra", "Hossein", "Maryam", "Mohammed", "Nazanin"]
+lists.append(iranian_names)
+
+# List of city names
+cities = ["Tehran", "Shiraz", "Isfahan", "Mashhad", "Tabriz", "Yazd", "Rasht", "Kermanshah", "Ahvaz", "Karaj"]
+lists.append(cities)
+
+# List of names of automotive companies
+car_companies = ["Benz", "Toyota", "Ford", "Hyundai", "Chevrolet", "BMW", "Opel", "Honda", "Nissan", "Volkswagen"]
+lists.append(car_companies)
+
+# لیست نام شرکت‌های غذاییfood_companies = ["Coca-Cola", "Nestle", "Danone", "Pepsi", "Milka", "Life", "Sina Soda", "Rayton", "Bestel", "Persian Gulf Juice"]
+lists.append(food_companies)
+
+# List of surnames
+last_names = ["Ahmadi", "Rezaei", "Khosravi", "Farahani", "Mohammadi", "Mirzaei", "Sadeghi", "Qassimi", "Kirimi", "Nowrozi"]
+lists.append(last_names)
+
+# List of names of football teams
+football_teams = ["Barcelona", "Real Madrid", "Manchester United", "Liverpool", "Bayern Munich", "Juventus", "Paris Saint-Germain", "Milan", "Tottenham", "Manchester City"]
+lists.append(football_teams)
+
+# List of names of football players
+football_players = ["Messi", "Ronaldo", "Neymar", "Aubameyang", "Mbabe", "Salah", "Kante", "De Bruyne", "Hazard", "Viran"]
+lists.append(football_players)
+
+# List of movie names
+movies = ["Avatar", "Titanic", "Star Wars", "Matrix", "American Pie", "The Dark Knight", "New Movie", "Oscar Slaves", "Wrecked", "Piano"]
+lists.append(movies)
+# لیست اعداد از 1 تا 50
+numbers = list(range(1, 51))
+lists.append(numbers)
+
+for my_list in lists:
+    print(my_list)
+
+
+grade = 0
+exams = 0
+
+while grade < 20:
+    exams += 1
+    grade = (grade * (exams - 1) + float(input(f"grade {exams}: "))) / exams
+
+print("Your average is equal to or greater than 20!")
+print("Congratulations! You get a bike.")
+
+
+
+
+password = "mypassword"
+
+user_input = input("Please enter password: ")
+
+while user_input != password:
+    print("The password is wrong!")
+    user_input
