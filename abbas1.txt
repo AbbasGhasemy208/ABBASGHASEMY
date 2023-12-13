@@ -23,7 +23,7 @@ lists.append(cities)
 car_companies = ["Benz", "Toyota", "Ford", "Hyundai", "Chevrolet", "BMW", "Opel", "Honda", "Nissan", "Volkswagen"]
 lists.append(car_companies)
 
-# لیست نام شرکت‌های غذاییfood_companies = ["Coca-Cola", "Nestle", "Danone", "Pepsi", "Milka", "Life", "Sina Soda", "Rayton", "Bestel", "Persian Gulf Juice"]
+# list of food companies names food_companies = ["Coca-Cola", "Nestle", "Danone", "Pepsi", "Milka", "Life", "Sina Soda", "Rayton", "Bestel", "Persian Gulf Juice "]
 lists.append(food_companies)
 
 # List of surnames
@@ -41,7 +41,7 @@ lists.append(football_players)
 # List of movie names
 movies = ["Avatar", "Titanic", "Star Wars", "Matrix", "American Pie", "The Dark Knight", "New Movie", "Oscar Slaves", "Wrecked", "Piano"]
 lists.append(movies)
-# لیست اعداد از 1 تا 50
+# List of numbers from 1 to 50
 numbers = list(range(1, 51))
 lists.append(numbers)
 
